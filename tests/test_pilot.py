@@ -79,3 +79,5 @@ def test_repository_pilot_results_meet_acceptance_gates() -> None:
     assert summary["control_mutants"] == 20
     assert summary["hardcode_false_passes"]["passed"] == 20
     assert summary["final_threshold_applicable"] is False
+    assert pilot.REPORT_PATH == pilot.PROJECT_ROOT / "docs" / "pilot_results.md"
+    assert pilot.REPORT_PATH.is_file()

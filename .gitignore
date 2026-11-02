@@ -222,3 +222,6 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Local working notes; published reports belong in docs/.
+PROJECT_CONTEXT.md
