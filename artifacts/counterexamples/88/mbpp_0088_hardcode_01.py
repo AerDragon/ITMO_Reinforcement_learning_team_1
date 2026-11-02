@@ -1,0 +1,1 @@
+assert freq_count([]) == {}
