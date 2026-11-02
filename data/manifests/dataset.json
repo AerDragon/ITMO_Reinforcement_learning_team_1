@@ -1,0 +1,33 @@
+{
+  "config": "sanitized",
+  "dataset_id": "google-research-datasets/mbpp",
+  "file_size_bytes": 60864,
+  "license": "CC-BY-4.0",
+  "local_file": "data/raw/mbpp_sanitized_test.parquet",
+  "revision": "4bb6404fdc6cacfda99d4ac4205087b89d32030c",
+  "schema": {
+    "code": "string",
+    "prompt": "string",
+    "source_file": "string",
+    "task_id": "int32",
+    "test_imports": "list[string]",
+    "test_list": "list[string]"
+  },
+  "sha256": "e9e9efa2c0d59ef5e55537a9d126b8f875d5ac010a8d75628d76824884e15850",
+  "source_file": "sanitized/test-00000-of-00001.parquet",
+  "source_url": "https://huggingface.co/datasets/google-research-datasets/mbpp/resolve/4bb6404fdc6cacfda99d4ac4205087b89d32030c/sanitized/test-00000-of-00001.parquet",
+  "split": "test",
+  "statistics": {
+    "rows": 257,
+    "task_id_max": 479,
+    "task_id_min": 11,
+    "tasks_with_imports": 13,
+    "tests_per_task": {
+      "3": 253,
+      "4": 3,
+      "5": 1
+    },
+    "total_tests": 776,
+    "unique_task_ids": 257
+  }
+}
