@@ -1,0 +1,1 @@
+assert cube_nums([]) == []

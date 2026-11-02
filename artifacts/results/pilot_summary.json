@@ -1,0 +1,65 @@
+{
+  "all_counterexamples_valid": true,
+  "answer_categories": {
+    "bool": 8,
+    "int": 6,
+    "list/tuple": 3,
+    "other": 2,
+    "str": 1
+  },
+  "control_mutants": 20,
+  "final_threshold_applicable": false,
+  "final_threshold_note": "Pilot n=40 is below the README minimum of 150 main mutants.",
+  "hardcode_false_passes": {
+    "passed": 20,
+    "rate": 1.0,
+    "total": 20,
+    "wilson_95": [
+      0.8388748419471806,
+      1.0
+    ]
+  },
+  "main_false_passes": {
+    "passed": 13,
+    "rate": 0.325,
+    "total": 40,
+    "wilson_95": [
+      0.200845022317827,
+      0.47982253810122333
+    ]
+  },
+  "main_false_passes_by_type": {
+    "boundary_shift": {
+      "passed": 3,
+      "rate": 0.23076923076923078,
+      "total": 13,
+      "wilson_95": [
+        0.08179528718498569,
+        0.5025637594672749
+      ]
+    },
+    "edge_case_omission": {
+      "passed": 10,
+      "rate": 0.7692307692307693,
+      "total": 13,
+      "wilson_95": [
+        0.49743624053272495,
+        0.9182047128150143
+      ]
+    },
+    "operator_replacement": {
+      "passed": 0,
+      "rate": 0.0,
+      "total": 14,
+      "wilson_95": [
+        1.3877787807814457e-17,
+        0.2153108027376358
+      ]
+    }
+  },
+  "main_mutants": 40,
+  "no_sandbox_errors": true,
+  "pilot_tasks": 20,
+  "reference_stock_passed": true,
+  "tasks_with_edge_stock_test": 2
+}

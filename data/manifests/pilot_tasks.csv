@@ -1,0 +1,21 @@
+sample_index,row_index,task_id,target_function,prompt
+0,57,113,check_integer,Write a function to check if a string represents an integer or not.
+1,12,61,count_Substrings,Write a python function to count the number of substrings with the sum of digits equal to their length.
+2,189,406,find_Parity,Write a python function to find whether the parity of a given number is odd.
+3,70,129,magic_square_test,Write a function to calculate whether the matrix is a magic square.
+4,62,119,search,Write a python function to find the element that appears only once in a sorted array.
+5,256,479,first_Digit,Write a python function to find the first digit of a given number.
+6,35,88,freq_count,"Write a function to get the frequency of all the elements in a list, returned as a dictionary."
+7,188,405,check_tuplex,Write a function to check whether an element exists within a tuple.
+8,26,77,is_Diff,Write a python function to find whether a number is divisible by 11.
+9,173,388,highest_Power_of_2,Write a python function to find the highest power of 2 that is less than or equal to n.
+10,254,477,is_lower,Write a python function to convert the given string to lower case.
+11,228,447,cube_nums,Write a function to find cubes of individual elements in a list.
+12,139,273,substract_elements,Write a function that takes in two tuples and subtracts the elements of the first tuple by the elements of the second tuple with the same index.
+13,22,71,comb_sort,Write a function to sort a list of elements.
+14,151,286,max_sub_array_sum_repeated,Write a function to find the largest sum of a contiguous array in the modified array which is formed by repeating the given array k times.
+15,108,237,check_occurences,Write a function that takes in a list of tuples and returns a dictionary mapping each unique tuple to the number of times it occurs in the list.
+16,8,56,check,Write a python function to check if a given number is one less than twice its reverse.
+17,7,20,is_woodall,Write a function to check if the given number is woodball or not.
+18,23,72,dif_Square,Write a python function to check whether the given number can be represented as the difference of two squares or not.
+19,55,109,odd_Equivalent,Write a python function to find the number of numbers with an odd value when rotating a binary string the given number of times.
